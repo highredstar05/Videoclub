@@ -1,14 +1,35 @@
-<!--
-  This template loads for the 'tab.friend-detail' state (app.js)
-  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
-  The FriendsCtrl pulls data from the Friends service (service.js)
-  The Friends service returns an array of friend data
--->
-<ion-view view-title="{{chat.name}}">
+
+<ion-view view-title="Video juegos">
   <ion-content class="padding">
-    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{chat.lastText}}
-    </p>
+   <div class="list card">
+    	<div class="item">
+        	<h2>Batman VS Super man</h2>
+        	<img class="image-list-thumb" src="img/130492_medium.jpg">
+        	<p>Reta por 3 dias HD</p>
+        	<p>$100.00</p>
+    	</div>
+   	 
+    	<div class="item">
+        	<h2>Dead Pool</h2>
+        	<img class="image-list-thumb" src="img/34497_4_large.jpg">
+        	<p>Reta por 3 dias HD</p>
+        	 <p>$80.00</p>
+    	</div>
+	</div>
+	<div class="item">
+        	<h2>Avenger2</h2>
+        	<img class="image-list-thumb" src="img/avengers.png">
+        	<p>Reta por 3 dias HD</p>
+        	<p>$80.00</p>
+    	</div>
+	
+	<div class="item" style="margin: 0 auto;">
+	    
+	
+        	<h2>Star Wars</h2>
+        	<img class="image-list-thumb" src="img/star.png">
+        	<p>Reta por 3 dias HD</p>
+        	<p>$80.00</p>
+    	</div>
   </ion-content>
 </ion-view>
